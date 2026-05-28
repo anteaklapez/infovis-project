@@ -1,0 +1,2 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,507,Other cardiovascular and circulatory diseases,3,Rate,2023,143.17875531694605,176.41383720922175,114.27325885813157

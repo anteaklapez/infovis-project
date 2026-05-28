@@ -1,0 +1,2 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,492.74374337763174,1002.9870040923504,222.31766400988388

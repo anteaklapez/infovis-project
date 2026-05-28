@@ -1,0 +1,2 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,976,Diabetes mellitus type 2,3,Rate,2023,1079.1175037043156,1288.032684705476,897.30301728897
