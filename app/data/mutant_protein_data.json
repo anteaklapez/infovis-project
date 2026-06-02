@@ -1,0 +1,505 @@
+{
+  "data": {
+    "entries": [
+      {
+        "rcsb_id": "2BEG",
+        "struct": {
+          "title": "3D Structure of Alzheimer's Abeta(1-42) fibrils"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "2005-10-24T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "SOLUTION NMR"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": null
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 16293696,
+          "pdbx_database_id_DOI": "10.1073/pnas.0506723102"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "6UFR",
+        "struct": {
+          "title": "Structure of recombinantly assembled E46K alpha-synuclein fibrils"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "2019-09-24T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "ELECTRON MICROSCOPY"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.5
+          ]
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 32015135,
+          "pdbx_database_id_DOI": "10.1073/pnas.1917914117"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "6X9O",
+        "struct": {
+          "title": "High resolution cryoEM structure of huntingtin in complex with HAP40"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "2020-06-03T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "ELECTRON MICROSCOPY"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.6
+          ]
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 34880419,
+          "pdbx_database_id_DOI": "10.1038/s42003-021-02895-4"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          },
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "2ITT",
+        "struct": {
+          "title": "Crystal structure of EGFR kinase domain L858R mutation in complex with AEE788"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "2006-05-25T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.73
+          ]
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 17349580,
+          "pdbx_database_id_DOI": "10.1016/J.CCR.2006.12.017"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "3QRJ",
+        "struct": {
+          "title": "The crystal structure of human abl1 kinase domain T315I mutant in complex with DCC-2036"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "2011-02-18T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            1.82
+          ]
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 21481795,
+          "pdbx_database_id_DOI": "10.1016/j.ccr.2011.03.003"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "2AX8",
+        "struct": {
+          "title": "Crystal Structure Of The Androgen Receptor Ligand Binding Domain W741L Mutant In Complex With S-1"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "2005-09-03T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            1.7
+          ]
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 16129672,
+          "pdbx_database_id_DOI": "10.1074/jbc.M507464200"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "6ZRQ",
+        "struct": {
+          "title": "two-protofilament amyloid structure of S20G variant of human amylin (IAPP - islet amyloid polypeptide)"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "2020-07-14T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "ELECTRON MICROSCOPY"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            3.9
+          ]
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 32929282,
+          "pdbx_database_id_DOI": "10.1038/s41594-020-0496-3"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "1XW7",
+        "struct": {
+          "title": "Diabetes-Associated Mutations in Human Insulin: Crystal Structure and Photo-Cross-Linking Studies of A-Chain Variant Insulin Wakayama"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "2004-10-29T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.3
+          ]
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 15794638,
+          "pdbx_database_id_DOI": "10.1021/bi047585k"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": null
+              },
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          },
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": null
+              },
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "1TG2",
+        "struct": {
+          "title": "Crystal structure of phenylalanine hydroxylase A313T mutant with 7,8-dihydrobiopterin bound"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "2004-05-28T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.2
+          ]
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 15557004,
+          "pdbx_database_id_DOI": "10.1073/pnas.0407256101"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "2MQ3",
+        "struct": {
+          "title": "NMR structure of the c3 domain of human cardiac myosin binding protein-c with a hypertrophic cardiomyopathy-related mutation R502W."
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "2014-06-12T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "SOLUTION NMR"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": null
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 25058872,
+          "pdbx_database_id_DOI": "10.1021/bi500784g"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "1D2J",
+        "struct": {
+          "title": "LDL RECEPTOR LIGAND-BINDING MODULE 6"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "1999-09-23T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "SOLUTION NMR"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": null
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 10704205,
+          "pdbx_database_id_DOI": "10.1021/bi992087a"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "1APJ",
+        "struct": {
+          "title": "NMR STUDY OF THE TRANSFORMING GROWTH FACTOR BETA BINDING PROTEIN-LIKE DOMAIN (TB MODULE/8-CYS DOMAIN), NMR, 21 STRUCTURES"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "1997-07-22T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "SOLUTION NMR"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": null
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 9362480,
+          "pdbx_database_id_DOI": "10.1093/emboj/16.22.6659"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "2HBS",
+        "struct": {
+          "title": "THE HIGH RESOLUTION CRYSTAL STRUCTURE OF DEOXYHEMOGLOBIN S"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "1997-05-06T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.05
+          ]
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 9325099,
+          "pdbx_database_id_DOI": "10.1006/jmbi.1997.1253"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          },
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "1MFM",
+        "struct": {
+          "title": "MONOMERIC HUMAN SOD MUTANT F50E/G51E/E133Q AT ATOMIC RESOLUTION"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "1999-04-16T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            1.02
+          ]
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 10329151,
+          "pdbx_database_id_DOI": "10.1006/jmbi.1999.2681"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rcsb_id": "1N5O",
+        "struct": {
+          "title": "Structural consequences of a cancer-causing BRCA1-BRCT missense mutation"
+        },
+        "rcsb_accession_info": {
+          "deposit_date": "2002-11-06T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.8
+          ]
+        },
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 12427738,
+          "pdbx_database_id_DOI": "10.1074/jbc.M210019200"
+        },
+        "polymer_entities": [
+          {
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
