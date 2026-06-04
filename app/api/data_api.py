@@ -8,8 +8,7 @@ with open(base / "../data/diseases_config.json") as f:
     diseases = json.load(f)
 
 mutant_ids = [info["mutant_pdb"] for info in diseases.values()]
-
-
+ 
 query = Query(
     input_type="entries",
     input_ids=mutant_ids,
