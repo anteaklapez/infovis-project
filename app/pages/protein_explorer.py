@@ -1,0 +1,26 @@
+import streamlit as st
+from ui.disease_summary import render_disease_summary
+from ui.protein_viewer import render_protein_viewer
+from ui.map import render_map
+from ui.filters import render_filters
+from data.data_loader import load_config
+
+def render_protein_explorer():
+    config = load_config()
+
+    selected_category, selected_disease, disease_data = render_filters(config)
+    render_disease_summary(selected_category, selected_disease, disease_data)
+
+    main_left, main_right = st.columns([2, 3])
+
+    with main_left:
+        protein_left, protein_right = st.columns(2, border=True)
+
+        with protein_left:
+            render_protein_viewer("Wildtype", disease_data["wildtype_pdb"], "wildtype")
+
+        with protein_right:
+            render_protein_viewer("Mutant", disease_data["mutant_pdb"], "mutant")
+
+    with main_right:
+        render_map(disease_data["map_fn"])
