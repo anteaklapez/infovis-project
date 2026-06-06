@@ -61,10 +61,10 @@
       "mutant_pdb": "2MQ3",
       "map_fn": "Hypertrophic_Cardiomyopathy.csv"
     },
-    "Familial Hypercholesterolemia": {
-      "wildtype_pdb": "1AJJ",
-      "mutant_pdb": "1D2J",
-      "map_fn": "Familial_Hypercholesterolemia.csv"
+    "Ischemic Stroke": {
+      "wildtype_pdb": "3U69",
+      "mutant_pdb": "1THP",
+      "map_fn": "Ischemic_Stroke.csv"
     },
     "Marfan Syndrome": {
       "wildtype_pdb": "1UZJ",
@@ -73,10 +73,10 @@
     }
   },
   "Genetic / Monogenic": {
-    "Sickle Cell Disease": {
+    "Sickle Cell Disorder": {
       "wildtype_pdb": "2HHB",
       "mutant_pdb": "2HBS",
-      "map_fn": "Sickle_Cell_Disease.csv"
+      "map_fn": "Sickle_Cell_Disorder.csv"
     },
     "Motor Neuron Disease (ALS)": {
       "wildtype_pdb": "2C9V",
