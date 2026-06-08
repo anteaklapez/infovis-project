@@ -36,14 +36,15 @@ def render_protein_explorer():
         with protein_right:
             render_protein_viewer("Mutant", disease_data["mutant_pdb"], "mutant")
 
-    with main_right:      
-        with st.container(border = True):  
-            pie_col, res_col = st.columns(2)
-            with pie_col:
-                render_methods_chart(disease_data_query["methods_pie"])
-            with res_col:
-                render_resolution_bar(protein_data, disease_data["wildtype_pdb"], disease_data["mutant_pdb"])
-            
-    render_map(disease_data["map_fn"])
+    with main_right:
+        with st.container(border=True):
+            render_map(disease_data["map_fn"])
+
+    with st.container(border=True):
+        pie_col, res_col = st.columns(2)
+        with pie_col:
+            render_methods_chart(disease_data_query["methods_pie"])
+        with res_col:
+            render_resolution_bar(protein_data, disease_data["wildtype_pdb"], disease_data["mutant_pdb"])
 
         
