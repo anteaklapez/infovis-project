@@ -17,3 +17,5 @@ graphql-core
 py3Dmol 
 plotly
 streamlit
+country_converter
+pandas
