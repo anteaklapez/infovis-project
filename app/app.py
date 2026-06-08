@@ -1,5 +1,7 @@
 import streamlit as st
 from pages.protein_explorer import render_protein_explorer
+from api.search_api import dashboard_query
+
 
 st.set_page_config(
     page_title="Protein & Disease Dashboard",
@@ -7,4 +9,4 @@ st.set_page_config(
     layout="wide",
 )
 
-render_protein_explorer()
+render_protein_explorer() 
