@@ -21,10 +21,10 @@ def render_protein_explorer():
     config = load_config()
 
     selected_category, selected_disease, disease_data = render_filters(config)
-    render_disease_summary(selected_category, selected_disease, disease_data)
-
     disease_data_query = load_disease_query(disease_data["wildtype_pdb"], disease_data["mutant_pdb"])
     protein_data = load_protein_data()
+
+    render_disease_summary(selected_disease, disease_data, protein_data)
 
     main_left, main_right = st.columns([2, 3])
     with main_left:

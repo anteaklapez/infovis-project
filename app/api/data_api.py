@@ -25,7 +25,7 @@ def data_query():
             "rcsb_entry_info.deposited_model_count",
             "rcsb_primary_citation.pdbx_database_id_PubMed",
             "rcsb_primary_citation.pdbx_database_id_DOI",
-            "rcsb_entity_source_organism.ncbi_scientific_name"
+            "polymer_entities.rcsb_entity_source_organism.ncbi_scientific_name" 
         ]
     )
     return query.exec()

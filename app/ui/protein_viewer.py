@@ -2,10 +2,14 @@ import streamlit as st
 import os
 import py3Dmol
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
 def render_protein_viewer(label: str, pdb_id: str, variant: str):
     st.markdown(f"**{label}** — `{pdb_id}`")
 
-    pdb_path = f"data/proteins/{pdb_id}.pdb"
+    pdb_path = os.path.join(BASE_DIR, '..', 'data', 'proteins', f'{pdb_id}.pdb')
+    pdb_path = os.path.normpath(pdb_path)
 
     if not os.path.exists(pdb_path):
         st.warning(f"PDB file not found: {pdb_path}")

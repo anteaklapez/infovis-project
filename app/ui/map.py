@@ -12,8 +12,11 @@ _CC = coco.CountryConverter()
 def _load(path: str) -> pd.DataFrame:
     return pd.read_csv(path)
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def render_map(map_fn: str):
-    map_path = f'data/maps/{map_fn}'
+    map_path = os.path.join(BASE_DIR, '..', 'data', 'maps', map_fn)
+    map_path = os.path.normpath(map_path)
 
     if not os.path.exists(map_path):
         st.warning(f"Map data not found: {map_path}")
