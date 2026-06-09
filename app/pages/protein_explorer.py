@@ -24,21 +24,21 @@ def render_protein_explorer():
     disease_data_query = load_disease_query(disease_data["wildtype_pdb"], disease_data["mutant_pdb"])
     protein_data = load_protein_data()
 
-    render_disease_summary(selected_disease, disease_data, protein_data)
+    #render_disease_summary(selected_disease, disease_data, protein_data)
+    wt_title, mt_title = render_disease_summary(selected_disease, disease_data, protein_data)
 
-    main_left, main_right = st.columns([2, 3])
+    main_left, main_right = st.columns([1, 1.3])
+
     with main_left:
-        protein_left, protein_right = st.columns(2, border=True)
-
-        with protein_left:
-            render_protein_viewer("Wildtype", disease_data["wildtype_pdb"], "wildtype")
-
-        with protein_right:
-            render_protein_viewer("Mutant", disease_data["mutant_pdb"], "mutant")
+        with st.container(border=True):
+            render_protein_viewer("Wildtype", disease_data["wildtype_pdb"], "wildtype", wt_title)
+        with st.container(border=True):
+            render_protein_viewer("Mutant", disease_data["mutant_pdb"], "mutant", mt_title)
 
     with main_right:
         with st.container(border=True):
             render_map(disease_data["map_fn"])
+
 
     with st.container(border=True):
         pie_col, res_col = st.columns(2)

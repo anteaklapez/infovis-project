@@ -1,6 +1,8 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
+from styles import palette
+
 
 def render_resolution_bar(protein_data, wildtype_id, mutant_id):
     entries = protein_data.get("data", {}).get("entries", [])
@@ -29,7 +31,7 @@ def render_resolution_bar(protein_data, wildtype_id, mutant_id):
 
     fig = px.bar(df, x="entry_id", y="resolution", color="variant", title="Resolution Structure",
         labels={"entry_id": "Protein Structure", "resolution": "Resolution (Å)"},
-        color_discrete_map={"Wildtype": "blue", "Mutant": "red"},
+        color_discrete_map={"Wildtype": palette.TEAL, "Mutant": palette.CORAL},
     )
 
     fig.update_traces(textposition="outside")

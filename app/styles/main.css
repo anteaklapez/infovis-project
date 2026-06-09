@@ -1,3 +1,7 @@
+[data-testid="stMainBlockContainer"] {
+    padding-top: 1rem;
+}
+
 /* Background */
 [data-testid="stAppViewContainer"] {
     background-color: #ffffff;

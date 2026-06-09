@@ -3,10 +3,10 @@ import pandas as pd
 import plotly.express as px
 import os
 import country_converter as coco
+from styles import palette
    
-   
-_CC = coco.CountryConverter()
 
+_CC = coco.CountryConverter()
 
 @st.cache_data
 def _load(path: str) -> pd.DataFrame:
@@ -45,18 +45,17 @@ def render_map(map_fn: str):
     df_year["iso3"] = _CC.convert(df_year["location_name"].tolist(),
                                       to="ISO3")
     df_year = df_year[df_year["iso3"] != "not found"]
-    loc_arg, mode = "iso3", "ISO-3"
+    #loc_arg, mode = "iso3", "ISO-3"
 
 
     fig = px.choropleth(
         df_year,
-        locations=loc_arg,
-        locationmode=mode,
+        locations="iso3",
+        locationmode="ISO-3",
         color='val',
         hover_name='location_name',
         range_color=[vmin, vmax],
-        hover_data={'val': ':.2f', 'location_name': False},
-        color_continuous_scale='Reds',
+        color_continuous_scale=palette.MAP_SCALE,
         title=f'Global Prevalence Rate per 100,000 — {selected_year}'
     )
 
@@ -67,7 +66,8 @@ def render_map(map_fn: str):
     )
 
     fig.update_traces(
-    hovertemplate='<b>%{hovertext}</b><br>Rate: %{customdata[0]:,.2f} per 100k<extra></extra>')
+        hovertemplate="<b>%{hovertext}</b><br>Rate: %{z:,.2f} per 100k<extra></extra>"
+    )
 
 
-    st.plotly_chart(fig, width='stretch')
+    st.plotly_chart(fig, width='stretch', use_container_width=True)
