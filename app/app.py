@@ -1,6 +1,7 @@
 import streamlit as st
 from pages.protein_explorer import render_protein_explorer
 from api.search_api import dashboard_query
+from styles.load_styles import load_css
 
 
 st.set_page_config(
@@ -9,4 +10,5 @@ st.set_page_config(
     layout="wide",
 )
 
+load_css()
 render_protein_explorer() 
