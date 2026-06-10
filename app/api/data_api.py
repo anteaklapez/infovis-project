@@ -1,6 +1,7 @@
 from rcsbapi.data import DataQuery as Query
 import json
 from pathlib import Path
+import asyncio
 
 base = Path(__file__).parent
 
@@ -28,7 +29,10 @@ def data_query():
             "polymer_entities.rcsb_entity_source_organism.ncbi_scientific_name" 
         ]
     )
-    return query.exec()
+    result = query.exec()
+    if asyncio.iscoroutine(result):
+        return asyncio.run(result)
+    return result
 
 
 if __name__ == "__main__":
