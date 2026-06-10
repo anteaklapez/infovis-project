@@ -24,7 +24,6 @@ def render_protein_explorer():
     disease_data_query = load_disease_query(disease_data["wildtype_pdb"], disease_data["mutant_pdb"])
     protein_data = load_protein_data()
 
-    #render_disease_summary(selected_disease, disease_data, protein_data)
     wt_title, mt_title = render_disease_summary(selected_disease, disease_data, protein_data)
 
     main_left, main_right = st.columns([1, 1.3])
