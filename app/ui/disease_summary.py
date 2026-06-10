@@ -15,12 +15,6 @@ def render_disease_summary(disease: str, disease_data: dict, protein_data:dict):
     wt_title = protein_lookup.get(wildtype_id, {}).get('struct', {}).get('title', 'No description available.')
     mt_title = protein_lookup.get(mutant_id, {}).get('struct', {}).get('title', 'No description available.')
 
-   # col1, col2 = st.columns(2)
-  #with col1:
-      #  st.info(f"**Wildtype** `{wildtype_id}`\n\n{wt_title}")
-   # with col2:
-    #    st.warning(f"**Mutant** `{mutant_id}`\n\n{mt_title}")
-
     return wt_title, mt_title # captions for protein viewer
 
 

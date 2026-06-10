@@ -24,7 +24,6 @@ def render_map(map_fn: str):
 
     df = pd.read_csv(map_path)
 
-    # lock color range across all years so frames are comparable
     vmin, vmax = df["val"].min(), df["val"].max()
 
     years = sorted(df['year'].unique().tolist())
@@ -38,14 +37,11 @@ def render_map(map_fn: str):
 
     df_year = df[df['year'] == selected_year]
 
-    # collapse duplicate country rows
     df_year = df_year.groupby("location_name", as_index=False)["val"].mean()
 
-    # GBD names -> ISO-3 so nothing gets dropped
     df_year["iso3"] = _CC.convert(df_year["location_name"].tolist(),
                                       to="ISO3")
     df_year = df_year[df_year["iso3"] != "not found"]
-    #loc_arg, mode = "iso3", "ISO-3"
 
 
     fig = px.choropleth(
