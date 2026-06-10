@@ -16,7 +16,7 @@ Users can pick a disease category and specific disease to compare wildtype (heal
 ## Setup & Installation
 
 ### Python Version
-- Python 3.11+
+Python 3.11 or 3.12 (3.13+ not recommended due to Streamlit/pyarrow compatibility issues)
 
 ### Install dependencies
 ```bash
