@@ -66,4 +66,4 @@ def render_map(map_fn: str):
     )
 
 
-    st.plotly_chart(fig, width='stretch', use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
