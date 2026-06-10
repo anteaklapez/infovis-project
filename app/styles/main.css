@@ -1,0 +1,32 @@
+[data-testid="stMainBlockContainer"] {
+    padding-top: 1rem;
+}
+
+/* Background */
+[data-testid="stAppViewContainer"] {
+    background-color: #ffffff;
+    background-image: radial-gradient(circle, #e4e2de 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #faf9f7;
+}
+
+[data-testid="stMain"] {
+    background: transparent;
+}
+
+/* TOPBAR hiding */
+[data-testid="stDecoration"] {
+    display: none !important;
+}
+
+[data-testid="stHeader"] {
+    display: none !important;
+}
+
+header[data-testid="stHeader"] {
+    display: none !important;
+    height: 0 !important;
+}
