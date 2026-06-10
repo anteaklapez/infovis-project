@@ -29,7 +29,7 @@ def render_resolution_bar(protein_data, wildtype_id, mutant_id):
         st.info("No resolution data available — structures were determined by NMR, which does not produce a resolution value.")
         return
 
-    fig = px.bar(df, x="entry_id", y="resolution", color="variant", title="Resolution Structure",
+    fig = px.bar(df, x="entry_id", y="resolution", color="variant",
         labels={"entry_id": "Protein Structure", "resolution": "Resolution (Å)"},
         color_discrete_map={"Wildtype": palette.TEAL, "Mutant": palette.CORAL},
     )
@@ -39,7 +39,15 @@ def render_resolution_bar(protein_data, wildtype_id, mutant_id):
         yaxis=dict(title="Resolution (Å)", rangemode="tozero"),
         showlegend=True,
         bargap=0.4,
-        height = 400
+        height = 420,
+        title=dict(
+            text="Resolution Structure",
+            subtitle=dict(
+                text="Structural resolution (Å) of the wildtype and mutant — lower values indicate higher precision.",
+                font=dict(size=14, color="#7a7974")
+            )
+        )
+        
     )
 
     st.plotly_chart(fig, width='stretch', key="resolution_chart")

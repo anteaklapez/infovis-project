@@ -48,13 +48,13 @@ def dashboard_query():
             )
         ]
     )
-    rows_table = [
-        {"entry_id": entry_id}
-        for entry_id in list(q_result)
-    ]
 
+    # NEW PART
+    results_list = list(q_result)
+    rows_table = [{"entry_id": entry_id} for entry_id in results_list]
     facets_raw = q_result.facets
-    total_count = len(list(q_result)) 
+    total_count = len(results_list)
+    #until here
 
     def facet_by_name(root, name):
         if not isinstance(root, list):
